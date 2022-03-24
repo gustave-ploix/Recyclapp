@@ -16,31 +16,8 @@ struct CameraView: View {
         ZStack {
          
             if capturedImage != nil {
-                Image(uiImage: capturedImage!)
-                    .resizable()
-                    .scaledToFill ()
-                    .ignoresSafeArea()
-                
-                /*display a button at the top left
-                 that delete the current image
-                 */
-                HStack {
-                    VStack {
-                        Button {
-                            capturedImage = nil
-                        } label: {
-                            Image(systemName: "chevron.left.circle.fill")
-                                .foregroundColor(.white)
-                                .font(.system(size: 44))
-                                .padding()
-                        } // Label
 
-                        
-                        
-                        Spacer() // Push to the top
-                    } // hstack
-                    Spacer() // push to the left
-                } // vstack
+                DescriptionView(imageShooted: $capturedImage)
                 
             } else {
                 // display the camera component

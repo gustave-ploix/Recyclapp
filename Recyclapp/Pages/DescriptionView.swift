@@ -8,13 +8,12 @@
 import SwiftUI
 
 struct DescriptionView: View {
+    
+    @Binding var imageShooted: UIImage?
+    
     var body: some View {
-        Text("description page!")
+        DescriptionCardComp(shootedImage: $imageShooted)
     }
 }
 
-struct DescriptionView_Previews: PreviewProvider {
-    static var previews: some View {
-        DescriptionView()
-    }
-}
+
