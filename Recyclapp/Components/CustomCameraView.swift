@@ -11,6 +11,7 @@ struct CustomCameraView: View {
     
     var body: some View {
         
+        
         ZStack {
             
             CamView(cameraService: cameraService) { result in
@@ -23,23 +24,23 @@ struct CustomCameraView: View {
                     }
                 case .failure(let err):
                     print(err.localizedDescription)
-                }
+                } // switch__result
                  
-            }
+            } // CamView
             
             VStack {
                 
                 Spacer()
                 
+                
                 Button {
                     cameraService.capturePhoto()
                 } label: {
-                    Image(systemName: "circle")
+                    Image(systemName: "leaf.arrow.triangle.circlepath")
                         .font(.system(size: 70))
                         .foregroundColor(.white)
-                    
-                }
-
+//
+                } // button__label
                 
             } // VStack
             

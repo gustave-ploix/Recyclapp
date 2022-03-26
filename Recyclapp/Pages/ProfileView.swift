@@ -11,6 +11,12 @@ struct ProfileView: View {
     var body: some View {
         VStack {
             ProfileComp()
+            NavigationLink {
+                CameraView()
+            } label: {
+                Text("camera")
+            }
+
         }
     }
 }

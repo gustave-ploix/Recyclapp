@@ -1,29 +1,23 @@
-//
-//  CameraView.swift
-//  Recyclapp
-//
-//  Created by Apprenant 61 on 23/03/2022.
-//
-
 import SwiftUI
+import CoreML
 
 struct CameraView: View {
     
     @State private var capturedImage: UIImage? = nil
     @State private var  isCustomCameraViewPresented = false
+    @State private var objectType:String = ""
+    
+    
     
     var body: some View {
         ZStack {
-         
-            if capturedImage != nil {
-
-                DescriptionView(imageShooted: $capturedImage)
-                
-            } else {
-                // display the camera component
-                CustomCameraView(capturedImage: $capturedImage)
+            VStack {
+                if capturedImage != nil {
+                    PreviewImage(imageToDisplay: $capturedImage, classifier: ImageClassifier())
+                } else {
+                    CustomCameraView(capturedImage: $capturedImage)
+                }
             }
-            
         } // ZStack
     } // body
 } // View

@@ -8,10 +8,11 @@
 import CoreML
 import Vision
 import CoreImage
+import SwiftUI
 
 struct Classifier {
     
-    private(set) var results: String
+ private(set) var results: String?
     
         
     mutating func detectImage(ciImage: CIImage) {

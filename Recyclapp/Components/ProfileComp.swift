@@ -26,18 +26,18 @@ struct ProfileComp: View {
                     // action à realiser pour que la modale soit affichée
                     isOn.toggle()
                 }){Image(systemName: "pencil")
-                    .foregroundColor(.black)
-                    .font(.title)
-                    .offset(x:10)
+                        .foregroundColor(.black)
+                        .font(.title)
+                        .offset(x:10)
                 }
-                    .sheet(isPresented: $isOn) {
+                .sheet(isPresented: $isOn) {
                     PageProfileModale(name: $name)
                 }//Création d'un Modale qui redirige vers "PageProfileModale" avec le nom en dynamique
-}//Fin HStack
+            }//Fin HStack
             Text(name).font(.title) //Affichage du nom une fois que l'on a rempli la Modale
             Spacer()
-}//Fin VStack
-}//Fin body PageProfile
+        }//Fin VStack
+    }//Fin body PageProfile
 }//Fin Struct PageProfile
 
 

@@ -9,10 +9,14 @@ import SwiftUI
 
 struct DescriptionView: View {
     
-    @Binding var imageShooted: UIImage?
+//    @Binding var imageShooted: UIImage?
+//    @Binding var objectType: String
     
     var body: some View {
-        DescriptionCardComp(shootedImage: $imageShooted)
+        
+        
+        Text("blablabla")
+//        DescriptionCardComp(shootedImage: $imageShooted, objectType: $objectType)
     }
 }
 
