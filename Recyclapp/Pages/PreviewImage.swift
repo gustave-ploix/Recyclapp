@@ -1,10 +1,3 @@
-//
-//  PreviewImage.swift
-//  Recyclapp
-//
-//  Created by Apprenant 61 on 25/03/2022.
-//
-
 import SwiftUI
 
 struct PreviewImage: View {
@@ -23,8 +16,8 @@ struct PreviewImage: View {
             if let image = imageToDisplay {
                
                 Image(uiImage: image )
-//                .resizable()
-//                .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height - 120)
+                .resizable()
+                .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height - 120)
             }
             
             ZStack {
@@ -43,7 +36,7 @@ struct PreviewImage: View {
                             imageToDisplay = nil
                             print("blabla")
                         } label: {
-                            Image(systemName: "arrowshape.turn.up.backward.circle.fill")
+                            Image(systemName: "chevron.backward.circle.fill")
                                 .font(.system(size: 50))
                                 .foregroundColor(.black )
                         }
@@ -52,7 +45,7 @@ struct PreviewImage: View {
                     Spacer()
                     
                     NavigationLink {
-                        DescriptionCardComp(shootedImage: $imageToDisplay, objectType: $imageType)
+                        DescriptionView(imageShooted: $imageToDisplay, objectType: $imageType)
                     } label: {
                         Image(systemName: "checkmark.circle.fill")
                             .font(.system(size: 50))
@@ -61,6 +54,7 @@ struct PreviewImage: View {
                         classifier.detect(uiImage: imageToDisplay!)
                         
                         if let imageClass = classifier.imageClass {
+                            print(imageClass)
                             imageType = imageClass 
                         }
                     }
@@ -72,5 +66,7 @@ struct PreviewImage: View {
             
             
         }
+        
+            .navigationBarHidden(true)
     }
 }

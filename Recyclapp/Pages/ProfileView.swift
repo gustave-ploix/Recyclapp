@@ -9,15 +9,16 @@ import SwiftUI
 
 struct ProfileView: View {
     var body: some View {
+        ZStack {
+            BackButton()
         VStack {
             ProfileComp()
-            NavigationLink {
-                CameraView()
-            } label: {
-                Text("camera")
-            }
-
+            
+            ListeFavorisTrouvees(dechet: "banana")
         }
+        }
+        
+            .navigationBarHidden(true)
     }
 }
 

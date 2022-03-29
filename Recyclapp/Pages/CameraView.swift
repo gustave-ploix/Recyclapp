@@ -7,8 +7,6 @@ struct CameraView: View {
     @State private var  isCustomCameraViewPresented = false
     @State private var objectType:String = ""
     
-    
-    
     var body: some View {
         ZStack {
             VStack {
@@ -19,6 +17,7 @@ struct CameraView: View {
                 }
             }
         } // ZStack
+            .navigationBarHidden(true)
     } // body
 } // View
 

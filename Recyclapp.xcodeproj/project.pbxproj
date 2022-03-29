@@ -7,18 +7,52 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B1E415127F2F17F00079E1A /* BackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1E415027F2F17F00079E1A /* BackButton.swift */; };
+		7B1E415427F2FD4D00079E1A /* FavList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1E415327F2FD4D00079E1A /* FavList.swift */; };
 		7B37A06D27EB343E006CD03A /* RecyclappApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B37A06C27EB343E006CD03A /* RecyclappApp.swift */; };
 		7B37A06F27EB343E006CD03A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B37A06E27EB343E006CD03A /* ContentView.swift */; };
 		7B37A07127EB343F006CD03A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B37A07027EB343F006CD03A /* Assets.xcassets */; };
 		7B37A07427EB343F006CD03A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B37A07327EB343F006CD03A /* Preview Assets.xcassets */; };
+		7B5504EF27F1B28D00709BB4 /* CameraService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5504EE27F1B28D00709BB4 /* CameraService.swift */; };
+		7B5504F127F1B29200709BB4 /* CamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5504F027F1B29200709BB4 /* CamView.swift */; };
+		7B5504F327F1B29500709BB4 /* ClassifierCoreML.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5504F227F1B29500709BB4 /* ClassifierCoreML.swift */; };
+		7B5504F527F1B29700709BB4 /* CommonStructures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5504F427F1B29700709BB4 /* CommonStructures.swift */; };
+		7B5504F727F1B29800709BB4 /* ImageClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5504F627F1B29800709BB4 /* ImageClassifier.swift */; };
+		7B5504FB27F1B2A200709BB4 /* DescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5504FA27F1B2A200709BB4 /* DescriptionView.swift */; };
+		7B5504FD27F1B2A400709BB4 /* PreviewImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5504FC27F1B2A400709BB4 /* PreviewImage.swift */; };
+		7B5504FF27F1B2A600709BB4 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5504FE27F1B2A600709BB4 /* ProfileView.swift */; };
+		7B55050127F1B2B700709BB4 /* CustomCameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B55050027F1B2B700709BB4 /* CustomCameraView.swift */; };
+		7B55050327F1B2BA00709BB4 /* DescriptionCardComp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B55050227F1B2BA00709BB4 /* DescriptionCardComp.swift */; };
+		7B55050527F1B2BB00709BB4 /* PageProfileModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B55050427F1B2BB00709BB4 /* PageProfileModal.swift */; };
+		7B55050927F1B2BF00709BB4 /* ProfileComp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B55050827F1B2BF00709BB4 /* ProfileComp.swift */; };
+		7B55050D27F1B3D800709BB4 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B55050C27F1B3D800709BB4 /* CameraView.swift */; };
+		7B55051827F1BC4F00709BB4 /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 7B55051727F1BC4F00709BB4 /* Resnet50.mlmodel */; };
+		7B55051E27F1E77A00709BB4 /* ListAdressComp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B55051D27F1E77A00709BB4 /* ListAdressComp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7B1E415027F2F17F00079E1A /* BackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackButton.swift; sourceTree = "<group>"; };
+		7B1E415327F2FD4D00079E1A /* FavList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavList.swift; sourceTree = "<group>"; };
 		7B37A06927EB343E006CD03A /* Recyclapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Recyclapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B37A06C27EB343E006CD03A /* RecyclappApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecyclappApp.swift; sourceTree = "<group>"; };
 		7B37A06E27EB343E006CD03A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7B37A07027EB343F006CD03A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7B37A07327EB343F006CD03A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7B5504EE27F1B28D00709BB4 /* CameraService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraService.swift; sourceTree = "<group>"; };
+		7B5504F027F1B29200709BB4 /* CamView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CamView.swift; sourceTree = "<group>"; };
+		7B5504F227F1B29500709BB4 /* ClassifierCoreML.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassifierCoreML.swift; sourceTree = "<group>"; };
+		7B5504F427F1B29700709BB4 /* CommonStructures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonStructures.swift; sourceTree = "<group>"; };
+		7B5504F627F1B29800709BB4 /* ImageClassifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageClassifier.swift; sourceTree = "<group>"; };
+		7B5504FA27F1B2A200709BB4 /* DescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionView.swift; sourceTree = "<group>"; };
+		7B5504FC27F1B2A400709BB4 /* PreviewImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewImage.swift; sourceTree = "<group>"; };
+		7B5504FE27F1B2A600709BB4 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		7B55050027F1B2B700709BB4 /* CustomCameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCameraView.swift; sourceTree = "<group>"; };
+		7B55050227F1B2BA00709BB4 /* DescriptionCardComp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionCardComp.swift; sourceTree = "<group>"; };
+		7B55050427F1B2BB00709BB4 /* PageProfileModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageProfileModal.swift; sourceTree = "<group>"; };
+		7B55050827F1B2BF00709BB4 /* ProfileComp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileComp.swift; sourceTree = "<group>"; };
+		7B55050C27F1B3D800709BB4 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		7B55051727F1BC4F00709BB4 /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50.mlmodel; sourceTree = "<group>"; };
+		7B55051D27F1E77A00709BB4 /* ListAdressComp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListAdressComp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +66,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7B1E414F27F2F17100079E1A /* Commun */ = {
+			isa = PBXGroup;
+			children = (
+				7B1E415027F2F17F00079E1A /* BackButton.swift */,
+			);
+			path = Commun;
+			sourceTree = "<group>";
+		};
 		7B37A06027EB343E006CD03A = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +93,11 @@
 		7B37A06B27EB343E006CD03A /* Recyclapp */ = {
 			isa = PBXGroup;
 			children = (
+				7B55051627F1BC2900709BB4 /* Structures */,
+				7B55051427F1BC0800709BB4 /* AIModel */,
+				7B55051327F1BBEE00709BB4 /* Services */,
+				7B55050F27F1BB7F00709BB4 /* Components */,
+				7B55050E27F1BB4000709BB4 /* Pages */,
 				7B37A06C27EB343E006CD03A /* RecyclappApp.swift */,
 				7B37A06E27EB343E006CD03A /* ContentView.swift */,
 				7B37A07027EB343F006CD03A /* Assets.xcassets */,
@@ -65,6 +112,82 @@
 				7B37A07327EB343F006CD03A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7B55050E27F1BB4000709BB4 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				7B55050C27F1B3D800709BB4 /* CameraView.swift */,
+				7B5504FA27F1B2A200709BB4 /* DescriptionView.swift */,
+				7B5504FC27F1B2A400709BB4 /* PreviewImage.swift */,
+				7B5504FE27F1B2A600709BB4 /* ProfileView.swift */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		7B55050F27F1BB7F00709BB4 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				7B1E414F27F2F17100079E1A /* Commun */,
+				7B55051227F1BBD200709BB4 /* DescriptionPage */,
+				7B55051127F1BBAA00709BB4 /* CameraPage */,
+				7B55051027F1BB8800709BB4 /* ProfilePage */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		7B55051027F1BB8800709BB4 /* ProfilePage */ = {
+			isa = PBXGroup;
+			children = (
+				7B55050827F1B2BF00709BB4 /* ProfileComp.swift */,
+				7B55050427F1B2BB00709BB4 /* PageProfileModal.swift */,
+				7B1E415327F2FD4D00079E1A /* FavList.swift */,
+			);
+			path = ProfilePage;
+			sourceTree = "<group>";
+		};
+		7B55051127F1BBAA00709BB4 /* CameraPage */ = {
+			isa = PBXGroup;
+			children = (
+				7B55050027F1B2B700709BB4 /* CustomCameraView.swift */,
+			);
+			path = CameraPage;
+			sourceTree = "<group>";
+		};
+		7B55051227F1BBD200709BB4 /* DescriptionPage */ = {
+			isa = PBXGroup;
+			children = (
+				7B55050227F1B2BA00709BB4 /* DescriptionCardComp.swift */,
+				7B55051D27F1E77A00709BB4 /* ListAdressComp.swift */,
+			);
+			path = DescriptionPage;
+			sourceTree = "<group>";
+		};
+		7B55051327F1BBEE00709BB4 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				7B5504F027F1B29200709BB4 /* CamView.swift */,
+				7B5504F627F1B29800709BB4 /* ImageClassifier.swift */,
+				7B5504F227F1B29500709BB4 /* ClassifierCoreML.swift */,
+				7B5504EE27F1B28D00709BB4 /* CameraService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		7B55051427F1BC0800709BB4 /* AIModel */ = {
+			isa = PBXGroup;
+			children = (
+				7B55051727F1BC4F00709BB4 /* Resnet50.mlmodel */,
+			);
+			path = AIModel;
+			sourceTree = "<group>";
+		};
+		7B55051627F1BC2900709BB4 /* Structures */ = {
+			isa = PBXGroup;
+			children = (
+				7B5504F427F1B29700709BB4 /* CommonStructures.swift */,
+			);
+			path = Structures;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +260,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B55051E27F1E77A00709BB4 /* ListAdressComp.swift in Sources */,
+				7B5504F527F1B29700709BB4 /* CommonStructures.swift in Sources */,
+				7B55050327F1B2BA00709BB4 /* DescriptionCardComp.swift in Sources */,
+				7B5504F127F1B29200709BB4 /* CamView.swift in Sources */,
+				7B5504FD27F1B2A400709BB4 /* PreviewImage.swift in Sources */,
 				7B37A06F27EB343E006CD03A /* ContentView.swift in Sources */,
+				7B55051827F1BC4F00709BB4 /* Resnet50.mlmodel in Sources */,
+				7B55050127F1B2B700709BB4 /* CustomCameraView.swift in Sources */,
+				7B55050527F1B2BB00709BB4 /* PageProfileModal.swift in Sources */,
+				7B5504FB27F1B2A200709BB4 /* DescriptionView.swift in Sources */,
+				7B5504F327F1B29500709BB4 /* ClassifierCoreML.swift in Sources */,
 				7B37A06D27EB343E006CD03A /* RecyclappApp.swift in Sources */,
+				7B55050D27F1B3D800709BB4 /* CameraView.swift in Sources */,
+				7B5504F727F1B29800709BB4 /* ImageClassifier.swift in Sources */,
+				7B1E415127F2F17F00079E1A /* BackButton.swift in Sources */,
+				7B55050927F1B2BF00709BB4 /* ProfileComp.swift in Sources */,
+				7B5504EF27F1B28D00709BB4 /* CameraService.swift in Sources */,
+				7B5504FF27F1B2A600709BB4 /* ProfileView.swift in Sources */,
+				7B1E415427F2FD4D00079E1A /* FavList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,9 +407,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Recyclapp/Preview Content\"";
-				DEVELOPMENT_TEAM = VX3BF2V7YL;
+				DEVELOPMENT_TEAM = CX62TZ6PL6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need to get access to the camera";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -296,9 +437,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Recyclapp/Preview Content\"";
-				DEVELOPMENT_TEAM = VX3BF2V7YL;
+				DEVELOPMENT_TEAM = CX62TZ6PL6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need to get access to the camera";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
