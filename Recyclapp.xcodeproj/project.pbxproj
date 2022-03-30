@@ -39,6 +39,7 @@
 		7B9BD82B27F347BA0003EA8A /* AdresseCliquable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9BD82A27F347BA0003EA8A /* AdresseCliquable.swift */; };
 		7BFB89B727F45C3100A21811 /* ColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFB89B627F45C3100A21811 /* ColorPicker.swift */; };
 		7BFB89B927F48EC700A21811 /* Preloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFB89B827F48EC700A21811 /* Preloader.swift */; };
+		7BFB89BB27F4D04700A21811 /* NotFoundComp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFB89BA27F4D04700A21811 /* NotFoundComp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -75,6 +76,7 @@
 		7B9BD82A27F347BA0003EA8A /* AdresseCliquable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdresseCliquable.swift; sourceTree = "<group>"; };
 		7BFB89B627F45C3100A21811 /* ColorPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPicker.swift; sourceTree = "<group>"; };
 		7BFB89B827F48EC700A21811 /* Preloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Preloader.swift; sourceTree = "<group>"; };
+		7BFB89BA27F4D04700A21811 /* NotFoundComp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotFoundComp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,6 +187,7 @@
 				7B9BD82527F3477E0003EA8A /* DetailAdresses.swift */,
 				7B9BD82827F347980003EA8A /* ListeAdressesTrouvées.swift */,
 				7B9BD82A27F347BA0003EA8A /* AdresseCliquable.swift */,
+				7BFB89BA27F4D04700A21811 /* NotFoundComp.swift */,
 			);
 			path = DescriptionPage;
 			sourceTree = "<group>";
@@ -320,6 +323,7 @@
 				7B55050327F1B2BA00709BB4 /* DescriptionCardComp.swift in Sources */,
 				7BFB89B727F45C3100A21811 /* ColorPicker.swift in Sources */,
 				7B5504F127F1B29200709BB4 /* CamView.swift in Sources */,
+				7BFB89BB27F4D04700A21811 /* NotFoundComp.swift in Sources */,
 				7B9BD81A27F344FB0003EA8A /* affichageDistance.swift in Sources */,
 				7B9BD81B27F344FB0003EA8A /* formatNum.swift in Sources */,
 				7B5504FD27F1B2A400709BB4 /* PreviewImage.swift in Sources */,

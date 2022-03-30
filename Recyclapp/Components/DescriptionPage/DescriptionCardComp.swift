@@ -98,6 +98,8 @@ struct DescriptionCardComp: View {
                 .padding()
                 .background(.red)
                 .ignoresSafeArea()
+            } else {
+                NotFoundComp()
             }
             
         }//Fin VStack principale
