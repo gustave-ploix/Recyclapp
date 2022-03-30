@@ -14,7 +14,6 @@ import MapKit
 //dictionnaire associant un nom d'objet à une liste de services applicables à cet objet
 private let servicesApplicables: [String:[Service]] = [
     "desktop computer" : [.reparer, .donner, .reprendre],
-    "water bottle" : [.reparer, .donner, .reprendre],
     "banana" : [.composter]
 ]
 

@@ -37,6 +37,7 @@
 		7B9BD82627F3477E0003EA8A /* DetailAdresses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9BD82527F3477E0003EA8A /* DetailAdresses.swift */; };
 		7B9BD82927F347980003EA8A /* ListeAdressesTrouvées.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9BD82827F347980003EA8A /* ListeAdressesTrouvées.swift */; };
 		7B9BD82B27F347BA0003EA8A /* AdresseCliquable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9BD82A27F347BA0003EA8A /* AdresseCliquable.swift */; };
+		7BFB89B727F45C3100A21811 /* ColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFB89B627F45C3100A21811 /* ColorPicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -71,6 +72,7 @@
 		7B9BD82527F3477E0003EA8A /* DetailAdresses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailAdresses.swift; sourceTree = "<group>"; };
 		7B9BD82827F347980003EA8A /* ListeAdressesTrouvées.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ListeAdressesTrouvées.swift"; sourceTree = "<group>"; };
 		7B9BD82A27F347BA0003EA8A /* AdresseCliquable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdresseCliquable.swift; sourceTree = "<group>"; };
+		7BFB89B627F45C3100A21811 /* ColorPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +162,7 @@
 				7B55050827F1B2BF00709BB4 /* ProfileComp.swift */,
 				7B55050427F1B2BB00709BB4 /* PageProfileModal.swift */,
 				7B1E415327F2FD4D00079E1A /* FavList.swift */,
+				7BFB89B627F45C3100A21811 /* ColorPicker.swift */,
 			);
 			path = ProfilePage;
 			sourceTree = "<group>";
@@ -312,6 +315,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B55050327F1B2BA00709BB4 /* DescriptionCardComp.swift in Sources */,
+				7BFB89B727F45C3100A21811 /* ColorPicker.swift in Sources */,
 				7B5504F127F1B29200709BB4 /* CamView.swift in Sources */,
 				7B9BD81A27F344FB0003EA8A /* affichageDistance.swift in Sources */,
 				7B9BD81B27F344FB0003EA8A /* formatNum.swift in Sources */,

@@ -14,8 +14,8 @@ func triDistanceCroissante(liste:[AdresseData]) -> [AdresseData] {
                 res.append(elem)
             } else { //Lors des itérations suivantes, on parcoure le tableau résultat. Si l'on trouve un index où la distance à l'utilisateur est plus grande que la distance de l'élément à l'utilisateur, on insère l'élément à cet index.
                 for i in 0...res.count-1 {
-                    let distanceAElement = geolocalisation.coordonnees().distance(from: CLLocation(latitude: elem.position.latitude, longitude: elem.position.longitude))
-                    let distanceAComp = geolocalisation.coordonnees().distance(from: CLLocation(latitude: res[i].position.latitude, longitude: res[i].position.longitude))
+                    let distanceAElement = donneesPartagees.positionUtilisateur.distance(from: CLLocation(latitude: elem.position.latitude, longitude: elem.position.longitude))
+                    let distanceAComp = donneesPartagees.positionUtilisateur.distance(from: CLLocation(latitude: res[i].position.latitude, longitude: res[i].position.longitude))
                     if distanceAElement < distanceAComp {
                         res.insert(elem, at:i)
                         inseree = true //Si l'élément est inséré, on met à jour le booléen pour en tenir compte

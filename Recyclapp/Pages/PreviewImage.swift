@@ -9,15 +9,14 @@ struct PreviewImage: View {
         
     var body: some View {
         
-        
         VStack {
             
-            
             if let image = imageToDisplay {
-                
                 Image(uiImage: image )
                     .resizable()
-                    .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height - 120)
+                    .aspectRatio(contentMode: .fit)
+                    .frame(height: UIScreen.main.bounds.height - 120)
+                    .border(Color.black, width: 5)
             }
             
             ZStack {

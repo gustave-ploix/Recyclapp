@@ -7,17 +7,18 @@ struct ProfileComp: View {
     
     @AppStorage("Username") var name = ""
     
+    @AppStorage("red") var red = 0.0
+    @AppStorage("green") var green = 0.0
+    @AppStorage("blue") var blue = 0.0
     
     
     var body: some View {
         VStack{
             HStack(){
                 Image(systemName: "person.crop.circle")
-                    .renderingMode(.original)
-                    .resizable()
                     .padding()
-                    .font(.largeTitle)
-                    .frame(width: 150, height: 150)
+                    .font(.system(size: 150))
+                    .foregroundColor(Color(red: red, green: green, blue: blue))
                     .offset(x : 20)
                 Button(action: {
                     // action à realiser pour que la modale soit affichée
@@ -28,7 +29,7 @@ struct ProfileComp: View {
                         .offset(x:10)
                 }
                 .sheet(isPresented: $isOn) {
-                    PageProfileModale(name: $name)
+                    PageProfileModale(name: $name, red: $red, green: $green, blue: $blue)
                 }
                 
                 //Création d'un Modale qui redirige vers "PageProfileModale" avec le nom en dynamique

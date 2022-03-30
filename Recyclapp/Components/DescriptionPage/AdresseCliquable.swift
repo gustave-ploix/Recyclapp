@@ -24,7 +24,7 @@ struct AdresseCliquable: View {
                 
                 //Affichage de la distance entre l'adresse et l'utilisateur (lire les commentaires du 1 au 3)
                 Text(affichageDistance( //3: affichage de la distance calculée sous forme de mètres ou kilomètres
-                    distance: geolocalisation.coordonnees().distance( //2: Calcul de la distance en mètres entre la position de l'utilisateur et celle de l'adresse
+                    distance: donneesPartagees.positionUtilisateur.distance( //2: Calcul de la distance en mètres entre la position de l'utilisateur et celle de l'adresse
                         from:CLLocation( //1: Convertion de la position de l'adresse (type CLLocationCoordinate2D) en un type CLLocation (nécessaire pour le calcul de la distance)
                             latitude: adresse.position.latitude, longitude: adresse.position.longitude))))
                     .fontWeight(.bold)
