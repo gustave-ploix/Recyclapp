@@ -45,6 +45,7 @@
 /* Begin PBXFileReference section */
 		7B1E415027F2F17F00079E1A /* BackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackButton.swift; sourceTree = "<group>"; };
 		7B1E415327F2FD4D00079E1A /* FavList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavList.swift; sourceTree = "<group>"; };
+		7B2E809F27F4E28A00A09FC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7B37A06927EB343E006CD03A /* Recyclapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Recyclapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B37A06C27EB343E006CD03A /* RecyclappApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecyclappApp.swift; sourceTree = "<group>"; };
 		7B37A06E27EB343E006CD03A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -117,6 +118,7 @@
 		7B37A06B27EB343E006CD03A /* Recyclapp */ = {
 			isa = PBXGroup;
 			children = (
+				7B2E809F27F4E28A00A09FC9 /* Info.plist */,
 				7B55051627F1BC2900709BB4 /* Structures */,
 				7B55051427F1BC0800709BB4 /* AIModel */,
 				7B55051327F1BBEE00709BB4 /* Services */,
@@ -482,6 +484,7 @@
 				DEVELOPMENT_TEAM = CX62TZ6PL6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Recyclapp/Info.plist;
 				INFOPLIST_KEY_NSCameraUsageDescription = "We need to get access to the camera";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need to access your location";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -490,6 +493,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -514,6 +518,7 @@
 				DEVELOPMENT_TEAM = CX62TZ6PL6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Recyclapp/Info.plist;
 				INFOPLIST_KEY_NSCameraUsageDescription = "We need to get access to the camera";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need to access your location";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -522,6 +527,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -99,7 +99,7 @@ struct DescriptionCardComp: View {
                 .background(.red)
                 .ignoresSafeArea()
             } else {
-                NotFoundComp()
+                NotFoundComp() 
             }
             
         }//Fin VStack principale
