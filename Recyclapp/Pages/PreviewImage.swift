@@ -6,7 +6,7 @@ struct PreviewImage: View {
     @State var imageType: String = ""
     
     @ObservedObject var classifier: ImageClassifier
-    
+        
     var body: some View {
         
         

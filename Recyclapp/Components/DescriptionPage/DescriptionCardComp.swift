@@ -38,7 +38,7 @@ struct DescriptionCardComp: View {
                         Text("Donner si inutilisé")
                         Text("Rendre au magasin si non réparable")
                     }
-                        .font(.body)
+                        .font(.body)    
                         
                     //Fin VStack Rectangle Vert
                 }.frame(width: UIScreen.main.bounds.width - 50)
