@@ -14,7 +14,6 @@ struct DescriptionView: View {
     
     var body: some View {
         
-        
         ZStack {
             
             BackButton()
@@ -31,6 +30,7 @@ struct DescriptionView: View {
             }
             
         }
+        .background(.ultraThinMaterial)
         .navigationBarHidden(true)
     }
 }

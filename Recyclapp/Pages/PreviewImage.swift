@@ -36,7 +36,7 @@ struct PreviewImage: View {
                     } label: {
                         Image(systemName: "chevron.backward.circle.fill")
                             .font(.system(size: 50))
-                            .foregroundColor(.black )
+                            .foregroundColor(.red )
                     }
                     
                     
@@ -47,7 +47,7 @@ struct PreviewImage: View {
                     } label: {
                         Image(systemName: "checkmark.circle.fill")
                             .font(.system(size: 50))
-                            .foregroundColor(.black)
+                            .foregroundColor(.green)
                     }.onAppear {
                         classifier.detect(uiImage: imageToDisplay!)
                         
@@ -64,7 +64,6 @@ struct PreviewImage: View {
             
             
         }
-        
         .navigationBarHidden(true)
     }
 }

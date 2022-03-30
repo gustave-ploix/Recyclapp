@@ -17,7 +17,7 @@ struct ProfileView: View {
                 ListeFavorisTrouvees(dechet: "banana")
             }
         }
-        
+        .background(.ultraThinMaterial)
         .navigationBarHidden(true)
     }
 }

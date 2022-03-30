@@ -53,6 +53,7 @@ struct PageProfileModale: View {
                 }
             }.navigationTitle("Add Name")
         }
+        .background(.ultraThinMaterial)
     }
 }
 
