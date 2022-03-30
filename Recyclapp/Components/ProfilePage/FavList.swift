@@ -15,8 +15,8 @@ struct ListeFavorisTrouvees: View {
     
     //Initialisation des propriétés. dechet est une chaîne de caractère correspondant à l'objet scanné par l'utilisateur
     init(dechet:String) {
-//        adressesPourService =
-//        print(adressesPourService)//Création d'une listes d'adresses pour chaque service sélectionné
+        //        adressesPourService =
+        //        print(adressesPourService)//Création d'une listes d'adresses pour chaque service sélectionné
         
     }//Fin de l'init
     
@@ -39,7 +39,7 @@ struct ListeFavorisTrouvees: View {
                 }.onAppear{
                     print("blablablax")
                 }
-   //Rajouter une func pour recalculer les 4 sous-listes à partir de la liste des Favoris.
+                //Rajouter une func pour recalculer les 4 sous-listes à partir de la liste des Favoris.
             }
         }
     }
@@ -63,7 +63,7 @@ struct FavoriCliquable: View {
                     distance: donneesPartagees.positionUtilisateur.distance( //2: Calcul de la distance en mètres entre la position de l'utilisateur (définie en dur dans donneesPartagees, et la position de l'adresse
                         from:CLLocation( //1: Convertion de la position de l'adresse (type CLLocationCoordinate2D) en un type CLLocation (nécessaire pour le calcul de la distance)
                             latitude: adresse.position.latitude, longitude: adresse.position.longitude))))
-                    .fontWeight(.bold)
+                .fontWeight(.bold)
                 
                 Text(adresse.nom) //Affiche le nom de l'adresse
                 
@@ -81,7 +81,7 @@ struct FavoriCliquable: View {
                     }
                 }).padding()
                     .frame(width:50, height: 50)//Fin bouton chevron
-
+                
             }//Fin du HStack
             
             //Affiche le détail de l'adresse si l'utilisateur l'a choisi. C'est à ce moment que le détail de l'adresse reçoit la valeur correcte de coordinate.
@@ -96,7 +96,7 @@ struct FavoriCliquable: View {
 
 //Structure permettant d'afficher le détail d'une adresse
 struct DetailAdresseSupprimable: View {
- 
+    
     let adresseInstance:AdresseData //constante qui contient l'adresse à afficher
     @State private var isShowingAlert = false //Montre l'alerte si j'appuie sur la croix.
     @Binding var coordinate:MKCoordinateRegion //variable biding qui correspond aux coordonnées géographiques que Map doit afficher. Sa valeur sera affectée lors de son affichange dans AdresseCliquable.
@@ -112,25 +112,25 @@ struct DetailAdresseSupprimable: View {
                 
                 Button(action:{
                     //Ajout de l'adresse sélectionnée à la liste des adresses favorites
-//                    donneesPartagees.adressesFavorites = ajouterSiAbsent(tableau: donneesPartagees.adressesFavorites, valeur: adresseInstance)
+                    //                    donneesPartagees.adressesFavorites = ajouterSiAbsent(tableau: donneesPartagees.adressesFavorites, valeur: adresseInstance)
                     isShowingAlert.toggle()
-                
+                    
                 }, label :{ //Apparence du bouton : une croix bleue
                     Image(systemName: "xmark")
                         .formatageBouton()
                 })
                 .buttonStyle(.plain)
-                    .foregroundColor(.blue)
-                    .alert("Are you sure to delete the address ?", isPresented: $isShowingAlert) {
-                        Button("Delete", role: .destructive){
-//                        print(adresseInstance)
-                            donneesPartagees.adressesFavorites = aSupprimer(tableau:donneesPartagees.adressesFavorites,valeur:adresseInstance)
-                            adressesServices = DetailAdresseSupprimable.constructionSousListes()
-                        }
-                        
-//////                            // indexSet OnDelete qui marche avec un swipe
-                        }
-                        }//Fin HStack
+                .foregroundColor(.blue)
+                .alert("Are you sure to delete the address ?", isPresented: $isShowingAlert) {
+                    Button("Delete", role: .destructive){
+                        //                        print(adresseInstance)
+                        donneesPartagees.adressesFavorites = aSupprimer(tableau:donneesPartagees.adressesFavorites,valeur:adresseInstance)
+                        adressesServices = DetailAdresseSupprimable.constructionSousListes()
+                    }
+                    
+                    //////                            // indexSet OnDelete qui marche avec un swipe
+                }
+            }//Fin HStack
             
             HStack {
                 Text(adresseInstance.telephone)
@@ -138,7 +138,7 @@ struct DetailAdresseSupprimable: View {
                 
                 Button(action:{
                     //Bouton qui servira à téléphoner à l'adresse choisie. Pas de fonctionnalité pour l'instant
-//                    print("placeholder d'appel de téléphone")
+                    //                    print("placeholder d'appel de téléphone")
                 }, label :{ //Apparence du bouton : un téléphone bleu
                     Image(systemName: "phone.fill")
                         .formatageBouton()
@@ -153,9 +153,9 @@ struct DetailAdresseSupprimable: View {
             }.frame(height:200)
             
         }.padding() //Fin VStack
-    //Fin du body
+        //Fin du body
     }
-
+    
     
     func aSupprimer(tableau: [AdresseData], valeur:AdresseData) -> [AdresseData] {
         var resultat = tableau
@@ -188,7 +188,7 @@ struct DetailAdresseSupprimable: View {
         return resultat
     }
 }
-    
+
 
 
 

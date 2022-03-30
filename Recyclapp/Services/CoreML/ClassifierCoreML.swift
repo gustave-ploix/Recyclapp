@@ -12,9 +12,9 @@ import SwiftUI
 
 struct Classifier {
     
- private(set) var results: String?
+    private(set) var results: String?
     
-        
+    
     mutating func detectImage(ciImage: CIImage) {
         guard let model = try? VNCoreMLModel(for: Resnet50(configuration: MLModelConfiguration()).model)
         else {

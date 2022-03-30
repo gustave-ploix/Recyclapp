@@ -14,14 +14,14 @@ struct DescriptionView: View {
     
     var body: some View {
         
-            
+        
         ZStack {
             
             BackButton()
-//                .onTapGesture {
-//                    print("image bien passée à nil")
-//                    imageShooted = nil
-//                }
+            //                .onTapGesture {
+            //                    print("image bien passée à nil")
+            //                    imageShooted = nil
+            //                }
             
             VStack {
                 
@@ -31,7 +31,7 @@ struct DescriptionView: View {
             }
             
         }
-            .navigationBarHidden(true)
+        .navigationBarHidden(true)
     }
 }
 

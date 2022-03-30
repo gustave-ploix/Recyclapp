@@ -17,7 +17,7 @@ struct CameraView: View {
                 }
             }
         } // ZStack
-            .navigationBarHidden(true)
+        .navigationBarHidden(true)
     } // body
 } // View
 

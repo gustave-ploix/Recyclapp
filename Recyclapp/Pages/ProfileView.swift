@@ -11,14 +11,14 @@ struct ProfileView: View {
     var body: some View {
         ZStack {
             BackButton()
-        VStack {
-            ProfileComp()
-            
-            ListeFavorisTrouvees(dechet: "banana")
-        }
+            VStack {
+                ProfileComp()
+                
+                ListeFavorisTrouvees(dechet: "banana")
+            }
         }
         
-            .navigationBarHidden(true)
+        .navigationBarHidden(true)
     }
 }
 

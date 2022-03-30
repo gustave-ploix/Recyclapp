@@ -24,19 +24,12 @@ struct BackButton: View {
                             .padding()
                     }
                 
-             
-                
-                
-                
-                
-                
-                
                 Spacer()
-            }
+            } // HSTACK
             Spacer()
-        }
-    }
-}
+        } // VSTACK
+    } // BODY
+} // STRUCT
 
 struct BackButton_Previews: PreviewProvider {
     static var previews: some View {

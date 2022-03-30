@@ -14,32 +14,31 @@ struct PreviewImage: View {
             
             
             if let image = imageToDisplay {
-               
+                
                 Image(uiImage: image )
-                .resizable()
-                .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height - 120)
+                    .resizable()
+                    .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height - 120)
             }
             
             ZStack {
                 
                 Rectangle()
-                    
+                
                     .frame(height: 90)
                     .foregroundColor(.white)
-                    
+                
                 
                 HStack {
                     Spacer()
                     
                     
-                        Button {
-                            imageToDisplay = nil
-                            print("blabla")
-                        } label: {
-                            Image(systemName: "chevron.backward.circle.fill")
-                                .font(.system(size: 50))
-                                .foregroundColor(.black )
-                        }
+                    Button {
+                        imageToDisplay = nil
+                    } label: {
+                        Image(systemName: "chevron.backward.circle.fill")
+                            .font(.system(size: 50))
+                            .foregroundColor(.black )
+                    }
                     
                     
                     Spacer()
@@ -67,6 +66,6 @@ struct PreviewImage: View {
             
         }
         
-            .navigationBarHidden(true)
+        .navigationBarHidden(true)
     }
 }

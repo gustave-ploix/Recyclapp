@@ -16,7 +16,6 @@
 		7B5504EF27F1B28D00709BB4 /* CameraService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5504EE27F1B28D00709BB4 /* CameraService.swift */; };
 		7B5504F127F1B29200709BB4 /* CamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5504F027F1B29200709BB4 /* CamView.swift */; };
 		7B5504F327F1B29500709BB4 /* ClassifierCoreML.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5504F227F1B29500709BB4 /* ClassifierCoreML.swift */; };
-		7B5504F527F1B29700709BB4 /* CommonStructures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5504F427F1B29700709BB4 /* CommonStructures.swift */; };
 		7B5504F727F1B29800709BB4 /* ImageClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5504F627F1B29800709BB4 /* ImageClassifier.swift */; };
 		7B5504FB27F1B2A200709BB4 /* DescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5504FA27F1B2A200709BB4 /* DescriptionView.swift */; };
 		7B5504FD27F1B2A400709BB4 /* PreviewImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5504FC27F1B2A400709BB4 /* PreviewImage.swift */; };
@@ -27,7 +26,17 @@
 		7B55050927F1B2BF00709BB4 /* ProfileComp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B55050827F1B2BF00709BB4 /* ProfileComp.swift */; };
 		7B55050D27F1B3D800709BB4 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B55050C27F1B3D800709BB4 /* CameraView.swift */; };
 		7B55051827F1BC4F00709BB4 /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 7B55051727F1BC4F00709BB4 /* Resnet50.mlmodel */; };
-		7B55051E27F1E77A00709BB4 /* ListAdressComp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B55051D27F1E77A00709BB4 /* ListAdressComp.swift */; };
+		7B9BD81927F344FB0003EA8A /* AdresseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9BD81227F344FB0003EA8A /* AdresseData.swift */; };
+		7B9BD81A27F344FB0003EA8A /* affichageDistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9BD81327F344FB0003EA8A /* affichageDistance.swift */; };
+		7B9BD81B27F344FB0003EA8A /* formatNum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9BD81427F344FB0003EA8A /* formatNum.swift */; };
+		7B9BD81C27F344FB0003EA8A /* listeAdresses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9BD81527F344FB0003EA8A /* listeAdresses.swift */; };
+		7B9BD81D27F344FB0003EA8A /* donneesPartagees.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9BD81627F344FB0003EA8A /* donneesPartagees.swift */; };
+		7B9BD81E27F344FB0003EA8A /* formatageBouton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9BD81727F344FB0003EA8A /* formatageBouton.swift */; };
+		7B9BD81F27F344FB0003EA8A /* triDistanceCroissante.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9BD81827F344FB0003EA8A /* triDistanceCroissante.swift */; };
+		7B9BD82427F346550003EA8A /* Geolocalisation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9BD82327F346550003EA8A /* Geolocalisation.swift */; };
+		7B9BD82627F3477E0003EA8A /* DetailAdresses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9BD82527F3477E0003EA8A /* DetailAdresses.swift */; };
+		7B9BD82927F347980003EA8A /* ListeAdressesTrouvées.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9BD82827F347980003EA8A /* ListeAdressesTrouvées.swift */; };
+		7B9BD82B27F347BA0003EA8A /* AdresseCliquable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9BD82A27F347BA0003EA8A /* AdresseCliquable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,7 +50,6 @@
 		7B5504EE27F1B28D00709BB4 /* CameraService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraService.swift; sourceTree = "<group>"; };
 		7B5504F027F1B29200709BB4 /* CamView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CamView.swift; sourceTree = "<group>"; };
 		7B5504F227F1B29500709BB4 /* ClassifierCoreML.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassifierCoreML.swift; sourceTree = "<group>"; };
-		7B5504F427F1B29700709BB4 /* CommonStructures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonStructures.swift; sourceTree = "<group>"; };
 		7B5504F627F1B29800709BB4 /* ImageClassifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageClassifier.swift; sourceTree = "<group>"; };
 		7B5504FA27F1B2A200709BB4 /* DescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionView.swift; sourceTree = "<group>"; };
 		7B5504FC27F1B2A400709BB4 /* PreviewImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewImage.swift; sourceTree = "<group>"; };
@@ -52,7 +60,17 @@
 		7B55050827F1B2BF00709BB4 /* ProfileComp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileComp.swift; sourceTree = "<group>"; };
 		7B55050C27F1B3D800709BB4 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
 		7B55051727F1BC4F00709BB4 /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50.mlmodel; sourceTree = "<group>"; };
-		7B55051D27F1E77A00709BB4 /* ListAdressComp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListAdressComp.swift; sourceTree = "<group>"; };
+		7B9BD81227F344FB0003EA8A /* AdresseData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdresseData.swift; sourceTree = "<group>"; };
+		7B9BD81327F344FB0003EA8A /* affichageDistance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = affichageDistance.swift; sourceTree = "<group>"; };
+		7B9BD81427F344FB0003EA8A /* formatNum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = formatNum.swift; sourceTree = "<group>"; };
+		7B9BD81527F344FB0003EA8A /* listeAdresses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = listeAdresses.swift; sourceTree = "<group>"; };
+		7B9BD81627F344FB0003EA8A /* donneesPartagees.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = donneesPartagees.swift; sourceTree = "<group>"; };
+		7B9BD81727F344FB0003EA8A /* formatageBouton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = formatageBouton.swift; sourceTree = "<group>"; };
+		7B9BD81827F344FB0003EA8A /* triDistanceCroissante.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = triDistanceCroissante.swift; sourceTree = "<group>"; };
+		7B9BD82327F346550003EA8A /* Geolocalisation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Geolocalisation.swift; sourceTree = "<group>"; };
+		7B9BD82527F3477E0003EA8A /* DetailAdresses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailAdresses.swift; sourceTree = "<group>"; };
+		7B9BD82827F347980003EA8A /* ListeAdressesTrouvées.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ListeAdressesTrouvées.swift"; sourceTree = "<group>"; };
+		7B9BD82A27F347BA0003EA8A /* AdresseCliquable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdresseCliquable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,7 +176,9 @@
 			isa = PBXGroup;
 			children = (
 				7B55050227F1B2BA00709BB4 /* DescriptionCardComp.swift */,
-				7B55051D27F1E77A00709BB4 /* ListAdressComp.swift */,
+				7B9BD82527F3477E0003EA8A /* DetailAdresses.swift */,
+				7B9BD82827F347980003EA8A /* ListeAdressesTrouvées.swift */,
+				7B9BD82A27F347BA0003EA8A /* AdresseCliquable.swift */,
 			);
 			path = DescriptionPage;
 			sourceTree = "<group>";
@@ -166,10 +186,9 @@
 		7B55051327F1BBEE00709BB4 /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				7B5504F027F1B29200709BB4 /* CamView.swift */,
-				7B5504F627F1B29800709BB4 /* ImageClassifier.swift */,
-				7B5504F227F1B29500709BB4 /* ClassifierCoreML.swift */,
-				7B5504EE27F1B28D00709BB4 /* CameraService.swift */,
+				7B9BD82227F345300003EA8A /* Utilities */,
+				7B9BD82127F345220003EA8A /* CoreML */,
+				7B9BD82027F345140003EA8A /* Camera */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -185,9 +204,41 @@
 		7B55051627F1BC2900709BB4 /* Structures */ = {
 			isa = PBXGroup;
 			children = (
-				7B5504F427F1B29700709BB4 /* CommonStructures.swift */,
+				7B9BD81227F344FB0003EA8A /* AdresseData.swift */,
+				7B9BD81627F344FB0003EA8A /* donneesPartagees.swift */,
+				7B9BD81527F344FB0003EA8A /* listeAdresses.swift */,
 			);
 			path = Structures;
+			sourceTree = "<group>";
+		};
+		7B9BD82027F345140003EA8A /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				7B5504F027F1B29200709BB4 /* CamView.swift */,
+				7B5504EE27F1B28D00709BB4 /* CameraService.swift */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		7B9BD82127F345220003EA8A /* CoreML */ = {
+			isa = PBXGroup;
+			children = (
+				7B5504F627F1B29800709BB4 /* ImageClassifier.swift */,
+				7B5504F227F1B29500709BB4 /* ClassifierCoreML.swift */,
+			);
+			path = CoreML;
+			sourceTree = "<group>";
+		};
+		7B9BD82227F345300003EA8A /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				7B9BD81727F344FB0003EA8A /* formatageBouton.swift */,
+				7B9BD81827F344FB0003EA8A /* triDistanceCroissante.swift */,
+				7B9BD81427F344FB0003EA8A /* formatNum.swift */,
+				7B9BD81327F344FB0003EA8A /* affichageDistance.swift */,
+				7B9BD82327F346550003EA8A /* Geolocalisation.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,22 +311,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B55051E27F1E77A00709BB4 /* ListAdressComp.swift in Sources */,
-				7B5504F527F1B29700709BB4 /* CommonStructures.swift in Sources */,
 				7B55050327F1B2BA00709BB4 /* DescriptionCardComp.swift in Sources */,
 				7B5504F127F1B29200709BB4 /* CamView.swift in Sources */,
+				7B9BD81A27F344FB0003EA8A /* affichageDistance.swift in Sources */,
+				7B9BD81B27F344FB0003EA8A /* formatNum.swift in Sources */,
 				7B5504FD27F1B2A400709BB4 /* PreviewImage.swift in Sources */,
 				7B37A06F27EB343E006CD03A /* ContentView.swift in Sources */,
 				7B55051827F1BC4F00709BB4 /* Resnet50.mlmodel in Sources */,
+				7B9BD81927F344FB0003EA8A /* AdresseData.swift in Sources */,
+				7B9BD82927F347980003EA8A /* ListeAdressesTrouvées.swift in Sources */,
+				7B9BD81D27F344FB0003EA8A /* donneesPartagees.swift in Sources */,
+				7B9BD81C27F344FB0003EA8A /* listeAdresses.swift in Sources */,
 				7B55050127F1B2B700709BB4 /* CustomCameraView.swift in Sources */,
 				7B55050527F1B2BB00709BB4 /* PageProfileModal.swift in Sources */,
+				7B9BD81E27F344FB0003EA8A /* formatageBouton.swift in Sources */,
+				7B9BD81F27F344FB0003EA8A /* triDistanceCroissante.swift in Sources */,
 				7B5504FB27F1B2A200709BB4 /* DescriptionView.swift in Sources */,
 				7B5504F327F1B29500709BB4 /* ClassifierCoreML.swift in Sources */,
 				7B37A06D27EB343E006CD03A /* RecyclappApp.swift in Sources */,
+				7B9BD82B27F347BA0003EA8A /* AdresseCliquable.swift in Sources */,
 				7B55050D27F1B3D800709BB4 /* CameraView.swift in Sources */,
+				7B9BD82427F346550003EA8A /* Geolocalisation.swift in Sources */,
 				7B5504F727F1B29800709BB4 /* ImageClassifier.swift in Sources */,
 				7B1E415127F2F17F00079E1A /* BackButton.swift in Sources */,
 				7B55050927F1B2BF00709BB4 /* ProfileComp.swift in Sources */,
+				7B9BD82627F3477E0003EA8A /* DetailAdresses.swift in Sources */,
 				7B5504EF27F1B28D00709BB4 /* CameraService.swift in Sources */,
 				7B5504FF27F1B2A600709BB4 /* ProfileView.swift in Sources */,
 				7B1E415427F2FD4D00079E1A /* FavList.swift in Sources */,
@@ -411,6 +471,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "We need to get access to the camera";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need to access your location";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -441,6 +502,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "We need to get access to the camera";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need to access your location";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

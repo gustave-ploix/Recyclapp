@@ -36,7 +36,7 @@ struct ProfileComp: View {
             Text(name)
                 .font(.title)//Affichage du nom une fois que l'on a rempli la Modale
             
-//            Spacer()
+            //            Spacer()
         }//Fin VStack
     }//Fin body PageProfile
 }//Fin Struct PageProfile
