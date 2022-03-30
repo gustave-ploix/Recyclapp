@@ -17,6 +17,7 @@ struct DetailAdresse: View {
     @Binding var coordinate:MKCoordinateRegion //variable biding qui correspond aux coordonnées géographiques que Map doit afficher. Sa valeur sera affectée lors de son affichange dans AdresseCliquable.
     
     @State private var isShowingAlert = false
+    @State var messageAlerte:String = "Placeholder"
     
     var body: some View {
         VStack {
@@ -26,16 +27,20 @@ struct DetailAdresse: View {
                 Spacer()
                 
                 Button(action:{
+                    let ajout = ajouterSiAbsent(tableau: donneesPartagees.adressesFavorites, valeur: adresseInstance)
+                    
                     //Ajout de l'adresse sélectionnée à la liste des adresses favorites
-                    donneesPartagees.adressesFavorites = ajouterSiAbsent(tableau: donneesPartagees.adressesFavorites, valeur: adresseInstance)
-                    //                    print("bouton activé")
+                    donneesPartagees.adressesFavorites = ajout.resultat
+                    messageAlerte = ajout.dejaAjoute
+                    
                     isShowingAlert = true
+                    
                 }, label :{ //Apparence du bouton : un coeur bleu
                     Image(systemName: "heart.fill")
                         .formatageBouton()
                 })
                 .alert(isPresented: $isShowingAlert){
-                    Alert(title: Text("Ajouté aux favoris !"), dismissButton: .default(Text("OK")))
+                    Alert(title: Text(messageAlerte), dismissButton: .default(Text("OK")))
                 }
                 .buttonStyle(.plain)
                 .foregroundColor(.blue)
@@ -70,7 +75,7 @@ struct DetailAdresse: View {
 }
 
 //Fonction permettant d'ajouter une valeur de type AdresseData (dotée d'un UUID)  à une liste de favoris uniquement si elle n'y est pas déjà présente
-func ajouterSiAbsent(tableau:[AdresseData], valeur:AdresseData) -> [AdresseData] {
+func ajouterSiAbsent(tableau:[AdresseData], valeur:AdresseData) -> (resultat:[AdresseData], dejaAjoute:String) {
     
     //Vérifier que l'adresse n'a pas déjà été ajoutée
     var dejaAjoute = false
@@ -82,9 +87,9 @@ func ajouterSiAbsent(tableau:[AdresseData], valeur:AdresseData) -> [AdresseData]
     
     //Si l'adresse n'a pas déjà été ajouter, l'ajouter au tableau
     if !dejaAjoute {
-        return tableau + [valeur]
+        return (tableau + [valeur], "Ajouté aux favoris !")
     } else {
-        return tableau
+        return (tableau, "Déjà dans vos favoris.")
     }
 }
 

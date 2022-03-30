@@ -38,6 +38,7 @@
 		7B9BD82927F347980003EA8A /* ListeAdressesTrouvées.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9BD82827F347980003EA8A /* ListeAdressesTrouvées.swift */; };
 		7B9BD82B27F347BA0003EA8A /* AdresseCliquable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9BD82A27F347BA0003EA8A /* AdresseCliquable.swift */; };
 		7BFB89B727F45C3100A21811 /* ColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFB89B627F45C3100A21811 /* ColorPicker.swift */; };
+		7BFB89B927F48EC700A21811 /* Preloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFB89B827F48EC700A21811 /* Preloader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -73,6 +74,7 @@
 		7B9BD82827F347980003EA8A /* ListeAdressesTrouvées.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ListeAdressesTrouvées.swift"; sourceTree = "<group>"; };
 		7B9BD82A27F347BA0003EA8A /* AdresseCliquable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdresseCliquable.swift; sourceTree = "<group>"; };
 		7BFB89B627F45C3100A21811 /* ColorPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPicker.swift; sourceTree = "<group>"; };
+		7BFB89B827F48EC700A21811 /* Preloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Preloader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +143,7 @@
 				7B5504FA27F1B2A200709BB4 /* DescriptionView.swift */,
 				7B5504FC27F1B2A400709BB4 /* PreviewImage.swift */,
 				7B5504FE27F1B2A600709BB4 /* ProfileView.swift */,
+				7BFB89B827F48EC700A21811 /* Preloader.swift */,
 			);
 			path = Pages;
 			sourceTree = "<group>";
@@ -336,6 +339,7 @@
 				7B9BD82B27F347BA0003EA8A /* AdresseCliquable.swift in Sources */,
 				7B55050D27F1B3D800709BB4 /* CameraView.swift in Sources */,
 				7B9BD82427F346550003EA8A /* Geolocalisation.swift in Sources */,
+				7BFB89B927F48EC700A21811 /* Preloader.swift in Sources */,
 				7B5504F727F1B29800709BB4 /* ImageClassifier.swift in Sources */,
 				7B1E415127F2F17F00079E1A /* BackButton.swift in Sources */,
 				7B55050927F1B2BF00709BB4 /* ProfileComp.swift in Sources */,
